@@ -61,3 +61,42 @@ whenever state variable changes react will rerender my component
 # 2 types of routing in web apps
   - Client Side Routing
   - Server Side Routing
+
+# 3  Class based components 
+  - Never update state varibles directly 
+
+# 4 Lazy()
+    - chunking
+    - code splitting
+    - dynamic bundling
+    - lazy loading
+    - on demand loading
+    - dynamic import
+
+
+# 5 Redux Toolkit
+  - Install @reduxjs/toolkit and react-redux
+  - Build our store
+  - Cponnect our store to app
+  - Slice (cartSlice)
+  - dispatch(action)
+  - reducer
+  - selector
+
+# Types of Testing (developer)
+  - Unit Testing
+  - Integration Testing
+  - End to End Testing -  e2e testing 
+
+# Setting up Testing in our app
+  - Installed React Testing Library
+  - Installed jest
+  - Installed Babel Dependencies
+  - Configure Babel
+  - configure Parcel config file to disable default babel transpilation
+  - Jest Configuration - npx jest --init
+  - Install jsdom library
+  - Install @babel/preset-react - to make JSX work in test cases
+  - Include @babel/preset-react - include in babel config
+  - Install @testing-library/jest-dom
+
